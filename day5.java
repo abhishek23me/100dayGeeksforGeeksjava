@@ -13,7 +13,7 @@ class Day5{
         // Create a 2D array to store the dynamic programming values
         int[][] dp = new int[m + 1][n + 1];
 
-        // Fill the dp table using a bottom-up approach
+        // Fill the dp table using a bottom-up approach.
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
                 // If either of the strings is empty, the length of the supersequence is the sum of lengths of the non-empty string
