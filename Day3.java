@@ -2,6 +2,7 @@ import java.util.HashMap;
 
 class Day3 {
     public static void main(String[] args) {
+        
         String str1 = "egg";
         String str2 = "add";
 
